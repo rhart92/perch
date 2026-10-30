@@ -46,6 +46,8 @@ You only need these steps if you want to build Perch from its source code. Insta
 open dist/Perch.app
 ```
 
+The build bundles the bird logo from `assets/perch.png` as the app icon. The menu bar keeps its layers icon.
+
 
 ## Your account
 
