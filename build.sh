@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 cd "$(dirname "$0")"
-swift build -c release
-BIN_DIR="$(swift build -c release --show-bin-path)"
+swift build -c release --arch arm64 --arch x86_64
+BIN_DIR="$(swift build -c release --arch arm64 --arch x86_64 --show-bin-path)"
 APP="$PWD/dist/Perch.app"
 mkdir -p "$APP/Contents/MacOS"
 cp "$BIN_DIR/Perch" "$APP/Contents/MacOS/Perch"

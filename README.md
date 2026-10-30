@@ -16,26 +16,32 @@ Perch can also add a `merge` label to a pull request. If your repo uses that lab
 
 ## Get started
 
-You need macOS 14 or later, Apple’s command line tools, and the [GitHub CLI](https://cli.github.com/).
+You need macOS 14 or later and the [GitHub CLI](https://cli.github.com/). Perch works on Apple Silicon and Intel Macs.
 
-If you need Apple’s command line tools, run:
-
-```sh
-xcode-select --install
-```
-
-With [Homebrew](https://brew.sh/) installed, run these commands from the Perch folder:
+1. [Download Perch.zip](https://github.com/rhart92/perch/releases/latest/download/Perch.zip).
+2. Open the ZIP file and drag **Perch** to your Applications folder.
+3. Sign in to GitHub with the commands below. If you do not have [Homebrew](https://brew.sh/), install it first.
 
 ```sh
 brew install gh
 gh auth login
+```
+
+Open Perch from your Applications folder. It stays in the menu bar, not the Dock.
+
+Perch is not signed with an Apple developer certificate or checked by Apple. macOS may block it the first time you open it. If you trust this download, open **System Settings → Privacy & Security** and choose **Open Anyway** after trying to launch it.
+
+Click the layers icon in your menu bar. Choose the repos you want to watch, then click **Done**. Perch only shows pull requests you wrote in those repos.
+
+## Build it yourself
+
+You only need these steps if you want to build Perch from its source code. Install Apple’s command line tools with `xcode-select --install`, then run these commands from the Perch folder:
+
+```sh
 ./build.sh
 open dist/Perch.app
 ```
 
-Click the layers icon in your menu bar. Choose the repos you want to watch, then click **Done**. Perch only shows pull requests you wrote in those repos.
-
-You can copy `dist/Perch.app` to your Applications folder. Perch stays in the menu bar, not the Dock.
 
 ## Your account
 
