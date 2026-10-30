@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/perch.svg" alt="Perch origami bird logo" width="160" height="160">
+</p>
+
 # Perch
 
 Keep an eye on your GitHub pull requests from your Mac’s menu bar. See what is ready, what needs work, and what was merged—all in one place.

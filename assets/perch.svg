@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <title>Perch</title>
+  <desc>A minimal origami bird perched on a line, with lavender wings, a pale blue head, and a rose chest.</desc>
+  <path d="M40 155 126 163 88 51 177 119 133 190Z" fill="#c4a7e7"/>
+  <path d="m88 51 89 68-51 44Z" fill="#9ccfd8"/>
+  <path d="m126 163 51-44 21-22 29 23-25 7-20 43-49 20Z" fill="#ea9a97"/>
+  <path d="m177 119 21-22 29 23-25 7Z" fill="#9ccfd8"/>
+  <path d="m151 183 9 24m-84 0h128" stroke="#908caa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
