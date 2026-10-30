@@ -1,9 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none">
   <title>Perch</title>
-  <desc>A minimal origami bird perched on a line, with lavender wings, a pale blue head, and a rose chest.</desc>
-  <path d="M40 155 126 163 88 51 177 119 133 190Z" fill="#c4a7e7"/>
-  <path d="m88 51 89 68-51 44Z" fill="#9ccfd8"/>
-  <path d="m126 163 51-44 21-22 29 23-25 7-20 43-49 20Z" fill="#ea9a97"/>
-  <path d="m177 119 21-22 29 23-25 7Z" fill="#9ccfd8"/>
-  <path d="m151 183 9 24m-84 0h128" stroke="#908caa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <desc>A folded-paper bird with a raised lavender wing, a pale blue head, and shaded violet folds, resting on a fine perch.</desc>
+  <defs>
+    <linearGradient id="wing" x1="83" y1="58" x2="174" y2="199" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eee6ff"/>
+      <stop offset=".48" stop-color="#c4a7e7"/>
+      <stop offset="1" stop-color="#8270b0"/>
+    </linearGradient>
+    <linearGradient id="wingFold" x1="105" y1="104" x2="133" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a58ac9"/>
+      <stop offset="1" stop-color="#514367"/>
+    </linearGradient>
+    <linearGradient id="backWing" x1="139" y1="78" x2="188" y2="155" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c2e4e9"/>
+      <stop offset="1" stop-color="#548a9e"/>
+    </linearGradient>
+    <linearGradient id="breast" x1="201" y1="133" x2="166" y2="218" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d7c2ee"/>
+      <stop offset="1" stop-color="#8f719e"/>
+    </linearGradient>
+    <linearGradient id="head" x1="219" y1="99" x2="227" y2="151" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d4eef0"/>
+      <stop offset="1" stop-color="#83b8c6"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="43" y1="172" x2="126" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4a7e7"/>
+      <stop offset="1" stop-color="#73608e"/>
+    </linearGradient>
+  </defs>
+  <path d="m137 76 65 58-36 47Z" fill="url(#backWing)"/>
+  <path d="m41 171 99 6-21 27Z" fill="url(#tail)"/>
+  <path d="m119 180 81-46 26-35 30 20-25 10-22 59-51 31-39-15Z" fill="url(#breast)"/>
+  <path d="m119 180 39 39 12-50Z" fill="#605071"/>
+  <path d="m200 134 26-35 30 20-25 10-22 59Z" fill="url(#head)"/>
+  <path d="m231 129 25-10-14 17Z" fill="#527e92"/>
+  <path d="m200 134 9 54-51 31Z" fill="url(#breast)"/>
+  <path d="M77 49 180 157 119 204Z" fill="url(#wing)"/>
+  <path d="m77 49 42 155 15-68Z" fill="url(#wingFold)"/>
+  <path d="m77 49 57 87 46 21" stroke="#f1e8ff" stroke-opacity=".55" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="m158 219 11 25 15-6" stroke="#a79ab8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M91 246h154" stroke="#6e6a86" stroke-width="3" stroke-linecap="round"/>
 </svg>
