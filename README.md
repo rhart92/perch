@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/perch.svg" alt="Perch origami bird logo" width="160" height="160">
+  <img src="assets/perch.png" alt="Perch origami bird logo" width="160" height="160">
 </p>
 
 # Perch
